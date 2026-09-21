@@ -1,6 +1,6 @@
 from pyscript import display, document
 
-# a = 'j'
+# a = 'julia'
 # b = 9
 
 # display(a * b)
@@ -9,7 +9,7 @@ from pyscript import display, document
 # name = ["information", "technology"]
 # display(name[-1])
 
-# longest_word = ['pneumonoultramicroscopicsilicovolcanoconiosis']
+# longest_word = 'pneumonoultramicroscopicsilicovolcanoconiosis'
 # display(len(longest_word))
 
 # a = "Monday, Tuesday, Wednesday"
@@ -21,5 +21,8 @@ from pyscript import display, document
 # b = "I hate the following days:"
 # display(b + ','.join(a))
 
-fave = "I like liver, tomatoes, and parsley"
-display(fave.replace("liver", 'salmon'))
+# fave = "I like liver, tomatoes, and parsley"
+# display(fave.replace("liver", 'salmon'))
+
+a= "!!Grade 10, Sapphire"
+display(a[1::2])
